@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8902646736788764961}
   - component: {fileID: 7013173364235237103}
   - component: {fileID: 7790033628022026844}
+  - component: {fileID: 4639218732995282902}
   m_Layer: 0
   m_Name: pear
   m_TagString: Untagged
@@ -163,6 +164,22 @@ MonoBehaviour:
   damage: 3
   speed: 1.5
   data: {fileID: 11400000, guid: 131256e0b5b3d5443b1ef6fbfef90330, type: 2}
+--- !u!70 &4639218732995282902
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3657421654002892860}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_Size: {x: 0.64, y: 0.64}
+  m_Direction: 0
 --- !u!1 &8357181890656268977
 GameObject:
   m_ObjectHideFlags: 0

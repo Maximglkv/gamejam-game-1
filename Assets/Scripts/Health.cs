@@ -20,7 +20,7 @@ public class Health : MonoBehaviour
             // Damage(10);
         }
 
-        if (Input.GetKeyDown(KeyCode.H))
+        if (Input.GetKeyDown(KeyCode.C))
         {
             Heal(10);
         }
